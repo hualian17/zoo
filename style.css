@@ -1,0 +1,134 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Trebuchet MS','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner{
+    height: 300px;
+    background-image: url('zooboo/zoo-banner.jpeg');
+    background-size: cover;
+}
+.nav{
+    background-color: bisque;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    background-color: brown;
+    margin: 10px;
+    padding-top: 12px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.nav ul li:hover{
+    background-color: darkred;
+}
+.nav ul li a:hover{
+    color: cyan;
+}
+
+#amphibian {
+    background-color: bisque;
+}
+
+#amphibian ul li {
+    text-align: left;
+    list-style-type: square;
+}
+.bird_card{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+.bird_card:hover{
+    background-color: aliceblue;
+}
+.bird_card img{
+    width: 100%;
+}
+#Reptile h3 {
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+table {
+    border-collapse: collapse;
+    display: inline;
+}
+
+th, td {
+    border: 2px solid white;
+}
+
+.col1 {
+    width: 60%;
+    background-color: rgb(0, 213, 255);
+}
+
+.col2 {
+    width: 40%;
+    background-color: rgb(0, 213, 255);
+}
+
+table tr td img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+#Fish {
+    background-color:brown;
+    border: 2px solid brown;
+}
+
+#Fish ul li {
+    text-align: left;
+}
+
+#Mammal h3 {
+    background-color: pink;
+    border: 2px solid pink;
+}
+
+.mammal_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.mammal_card img {
+    width: 100%;
+}
+
+.bird_card:hover {
+    background-color: rgb(240, 28, 240);}
+
+.mammal_card:hover {
+    background-color: white;}
+
+table td:hover {
+    background-color: rgb(168, 161, 202);
+}
